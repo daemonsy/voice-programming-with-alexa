@@ -1,0 +1,3 @@
+rickRoll to sing {firstName} a song
+rickRoll to sing a song for {firstName}
+destroyCity to destroy {cityName}

@@ -1,0 +1,14 @@
+{
+  "name": "eva",
+  "version": "0.0.1",
+  "description": "A demo app to showcase the Alexa custom skills kit",
+  "main": "index.js",
+  "author": "Damon Aw <daemonsy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "release": "yarn --production && zip -r eva.zip . -x *.git*"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}

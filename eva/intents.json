@@ -1,0 +1,25 @@
+{
+  "intents" : [{
+    "intent": "rickRoll",
+    "slots": [
+        {
+          "name": "firstName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "octocatMe",
+      "slots": []
+    },
+    {
+      "intent": "destroyCity",
+      "slots": [
+        {
+          "name": "cityName",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    }
+  ]
+}
